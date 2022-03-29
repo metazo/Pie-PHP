@@ -22,16 +22,23 @@
       <div class="form-group">
         <input type="password" name="mdp" id="password" required class="inputField" autocomplete="off">
         <label for="password">Mot de passe</label>
+    
+       
       </div>
+      <div style="color: white;"><input type="checkbox" onclick="myFunction()" > Afficher le mot de passe</div>
+     <br>
       <button type="submit" name="valide" class="submitButton">Se connecter</button>
     </form>
     <div class="footer">
       <a href="#">Mot de passe oublié ?</a>
       <br>
+      
       <br>
       <a href="./register.php">Pas encore de compte ? Inscrivez-vous</a>
     </div>
   </div>
+
+  <script src="/webroot/js/login.js"></script>
 </body>
 
 </html>

@@ -29,28 +29,7 @@
             </div>
             <h4 style="color:white">Date de naissance</h4>
             <div class="form-group">
-                
-            <select name="month" class="inputField" class="econo" style="background:black;">
-
-<option value="mois">Mois</option>
-
-<option value="janvier">Janvier</option>
-<option value="fevrier">Février</option>
-<option value="mars">Mars</option>
-<option value="avril">Avril</option>
-<option value="mai">Mai</option>
-<option value="juin">Juin</option>
-<option value="juillet">Juillet</option>
-<option value="août">Août</option>
-<option value="septembre">Septembre</option>
-<option value="Octobre">Octobre</option>
-<option value="novembre">Novembre</option>
-<option value="decembre">Décembre</option>
-
-
-</select>
-
-<select name="days">
+            <select name="days">
 
 <option value="days">Jour</option>
 
@@ -88,6 +67,27 @@
 
 
 </select>
+            <select name="month">
+
+<option value="mois">Mois</option>
+
+<option value="janvier">Janvier</option>
+<option value="fevrier">Février</option>
+<option value="mars">Mars</option>
+<option value="avril">Avril</option>
+<option value="mai">Mai</option>
+<option value="juin">Juin</option>
+<option value="juillet">Juillet</option>
+<option value="août">Août</option>
+<option value="septembre">Septembre</option>
+<option value="Octobre">Octobre</option>
+<option value="novembre">Novembre</option>
+<option value="decembre">Décembre</option>
+
+
+</select>
+
+
 
 <select name="years" >
 
